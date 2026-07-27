@@ -66,7 +66,7 @@ sequenceDiagram
 개인 스킬 디렉터리에 직접 복사합니다:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git ~/.claude/skills/multilingual-readme
 ```
 
 세션 내에서 호출합니다:
@@ -80,7 +80,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skil
 프로젝트의 로컬 스킬 디렉터리에 복사하거나 `AGENTS.md`에 지침을 추가합니다:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git .claude/skills/multilingual-readme
 ```
 
 ### 🛠️ 소스에서 실행
@@ -88,7 +88,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills
 저장소를 복사하고 검증 스크립트를 실행합니다:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git
 cd multilingual-readme
 python3 scripts/check_readme.py . --langs en,ja,zh-CN,es,ko
 ```

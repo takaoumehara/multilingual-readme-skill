@@ -66,7 +66,7 @@ Includes an integrated Python checker script to validate layout anchors, links, 
 Clone directly into your personal skills directory:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git ~/.claude/skills/multilingual-readme
 ```
 
 Invoke in any session:
@@ -80,7 +80,7 @@ Invoke in any session:
 Copy to your project's local skills directory or copy instructions into `AGENTS.md`:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git .claude/skills/multilingual-readme
 ```
 
 ### 🛠️ From source
@@ -88,7 +88,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills
 Clone and run the verification checker locally:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git
 cd multilingual-readme
 python3 scripts/check_readme.py . --langs en,ja,zh-CN,es,ko
 ```

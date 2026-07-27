@@ -66,7 +66,7 @@ sequenceDiagram
 個人のスキルフォルダに直接クローンします:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git ~/.claude/skills/multilingual-readme
 ```
 
 セッション内で呼び出します:
@@ -80,7 +80,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skil
 プロジェクトのローカルスキルフォルダに配置するか、`AGENTS.md` に指示を追加します:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git .claude/skills/multilingual-readme
 ```
 
 ### 🛠️ ソースから実行
@@ -88,7 +88,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills
 リポジトリをクローンし、検証スクリプトを実行します:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git
 cd multilingual-readme
 python3 scripts/check_readme.py . --langs en,ja,zh-CN,es,ko
 ```

@@ -66,7 +66,7 @@ sequenceDiagram
 克隆至个人 Skill 目录:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git ~/.claude/skills/multilingual-readme
 ```
 
 在会话中调用:
@@ -80,7 +80,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skil
 复制至项目的本地 Skill 目录，或将指令添加至 `AGENTS.md`:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git .claude/skills/multilingual-readme
 ```
 
 ### 🛠️ 从源码运行
@@ -88,7 +88,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills
 克隆仓库并运行校验脚本:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git
 cd multilingual-readme
 python3 scripts/check_readme.py . --langs en,ja,zh-CN,es,ko
 ```

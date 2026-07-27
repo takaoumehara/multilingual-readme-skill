@@ -66,7 +66,7 @@ Incluye un script de verificación en Python que valida la estructura, los enlac
 Clona directamente en tu directorio personal de skills:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git ~/.claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git ~/.claude/skills/multilingual-readme
 ```
 
 Invócalo en cualquier sesión:
@@ -80,7 +80,7 @@ Invócalo en cualquier sesión:
 Copia en el directorio local de skills de tu proyecto o añade las instrucciones en `AGENTS.md`:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills/multilingual-readme
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git .claude/skills/multilingual-readme
 ```
 
 ### 🛠️ Desde el código fuente
@@ -88,7 +88,7 @@ git clone https://github.com/takaoumehara/multilingual-readme.git .claude/skills
 Clona y ejecuta el verificador localmente:
 
 ```bash
-git clone https://github.com/takaoumehara/multilingual-readme.git
+git clone https://github.com/takaoumehara/multilingual-readme-skill.git
 cd multilingual-readme
 python3 scripts/check_readme.py . --langs en,ja,zh-CN,es,ko
 ```
